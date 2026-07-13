@@ -276,6 +276,7 @@ h3 {
   display: grid;
   grid-template-columns: 128px minmax(0, 1fr);
   gap: 18px;
+  overflow-wrap: anywhere;
 }
 
 time {
