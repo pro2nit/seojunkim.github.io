@@ -2,6 +2,9 @@
 
 GitHub Pages에 바로 올릴 수 있는 정적 개인 페이지입니다. 참고 사이트처럼 좌측 프로필과 우측 본문 구조를 사용했고, 첨부 Notion export와 Google Scholar 공개 정보를 기반으로 구성했습니다.
 
+- English: `index.html`
+- Korean: `ko.html`
+
 ## 미리보기
 
 브라우저에서 `index.html`을 직접 열어도 동작합니다.
