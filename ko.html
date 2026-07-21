@@ -16,6 +16,14 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="assets/profile.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
     <link rel="alternate" hreflang="en" href="index.html" />
     <link rel="alternate" hreflang="ko" href="ko.html" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
@@ -31,18 +39,32 @@
           <p class="korean-name">Seojun Kim</p>
           <p class="role">Research Engineer · 전문연구요원</p>
           <p class="affiliation">(주) 에스아이에이 · UNIST AIGS 휴학</p>
+          <p class="email-line">seojun.kim (at) unist.ac.kr</p>
 
           <div class="profile-links" aria-label="프로필 링크">
-            <a href="index.html">English</a>
-            <a href="mailto:seojun.kim@unist.ac.kr">Email</a>
-            <a href="https://github.com/pro2nit" target="_blank" rel="me noreferrer">GitHub</a>
+            <a href="index.html" aria-label="English page" title="English">EN</a>
+            <a href="mailto:seojun.kim@unist.ac.kr" aria-label="Email" title="Email"
+              ><i class="fa-solid fa-envelope" aria-hidden="true"></i
+            ></a>
+            <a href="https://github.com/pro2nit" target="_blank" rel="me noreferrer" aria-label="GitHub" title="GitHub"
+              ><i class="fab fa-github" aria-hidden="true"></i
+            ></a>
             <a
               href="https://scholar.google.com/citations?user=A7OStRMAAAAJ&hl=ko"
               target="_blank"
               rel="noreferrer"
-              >Scholar</a
+              aria-label="Google Scholar"
+              title="Google Scholar"
+              ><i class="ai ai-google-scholar" aria-hidden="true"></i
             >
-            <a href="https://sites.google.com/view/jaejunyoo" target="_blank" rel="noreferrer">LAIT</a>
+            <a
+              href="https://sites.google.com/view/jaejunyoo"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="LAIT"
+              title="LAIT"
+              ><i class="fa-solid fa-flask" aria-hidden="true"></i
+            ></a>
           </div>
         </div>
 
@@ -89,16 +111,13 @@
             2023년 UNIST에서 컴퓨터공학 학사를 받았습니다.
           </p>
 
-          <div class="interest-grid" aria-label="연구 관심사">
-            <span>Computer Vision</span>
-            <span>Generative Model</span>
-            <span>Remote Sensing</span>
-            <span>Representation Learning</span>
-            <span>Image Editing</span>
-            <span>Evaluation</span>
-            <span>Layout Generation</span>
-            <span>Efficient Restoration</span>
-          </div>
+          <h2 id="research-interests">연구 관심사</h2>
+          <ul class="interest-list" aria-label="연구 관심사">
+            <li><strong>Computer Vision:</strong> 이미지 편집, layout generation, 영상 복원, 평가 지표.</li>
+            <li><strong>Remote Sensing:</strong> SAR-EO paired data, multi-modal foundation model, representation learning.</li>
+            <li><strong>Generative Models:</strong> diffusion model, content-aware generation, video generation evaluation.</li>
+            <li><strong>Efficient Learning:</strong> super-resolution, lottery ticket, personalized model의 continual learning.</li>
+          </ul>
         </section>
 
         <section id="news" class="section">
@@ -151,7 +170,7 @@
           </div>
 
           <article class="publication">
-            <div class="venue">2026</div>
+            <div class="pub-media"><span class="venue">2026</span></div>
             <div>
               <h3>SEORATION: Curating SAR-EO Paired Data for Multi-Modal Remote Sensing Foundation Models</h3>
               <p class="authors"><strong>김서준</strong>, Y. Oh, Y. Lee, S. Son</p>
@@ -165,7 +184,7 @@
           </article>
 
           <article class="publication">
-            <div class="venue">ECCV 2024</div>
+            <div class="pub-media"><span class="venue">ECCV</span></div>
             <div>
               <h3>PosterLlama: Bridging Design Ability of Language Model to Content-Aware Layout Generation</h3>
               <p class="authors">설재정, <strong>김서준</strong>, 유재준</p>
@@ -175,7 +194,7 @@
           </article>
 
           <article class="publication">
-            <div class="venue">ICLR 2024</div>
+            <div class="pub-media"><span class="venue">ICLR</span></div>
             <div>
               <h3>STREAM: Spatio-TempoRal Evaluation and Analysis Metric for Video Generative Models</h3>
               <p class="authors">김범준, <strong>김서준</strong>, 유재준</p>
@@ -186,7 +205,7 @@
           </article>
 
           <article class="publication">
-            <div class="venue">IPIU 2025</div>
+            <div class="pub-media"><span class="venue">IPIU</span></div>
             <div>
               <h3>확산 모델 기반 스타일 일관성 보존 장면 텍스트 편집 방법</h3>
               <p class="authors"><strong>김서준</strong>, 유재준</p>
@@ -195,7 +214,7 @@
           </article>
 
           <article class="publication">
-            <div class="venue">KSC 2022</div>
+            <div class="pub-media"><span class="venue">KSC</span></div>
             <div>
               <h3>EP-SRCNN: Strong Lottery Ticket in Super-Resolution</h3>
               <p class="authors"><strong>김서준</strong>, 유재준</p>
